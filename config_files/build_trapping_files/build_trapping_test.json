@@ -1,0 +1,19 @@
+{
+    "step_size" : 5e6,
+    "minFreq" : 18e9,
+    "maxFreq" : 22e9,
+    "trap_radius" : 0.577e-2,
+    "field" : 1.0,
+    "trap_profile" : 0,
+    "save_dir" : "test_trap_data",
+    "trap_profile_dir" : "config_files/trap_profile_files/",
+    "trap_profile_file" : "he6_trap_2e-3.json"
+}
+
+
+
+
+
+
+
+

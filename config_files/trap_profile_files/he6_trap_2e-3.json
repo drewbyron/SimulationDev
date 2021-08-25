@@ -1,0 +1,41 @@
+{
+    "main_field" : 1.0,
+    "field_scales" : true,
+    "field_coils" : [{
+            "name" : "left coil",
+            "inner_radius" : 1.15e-2,
+            "outer_radius" : 1.25e-2,
+            "left_edge" : -4.84e-3,
+            "right_edge" : 4.84e-3,
+            "z_center" : -4.5e-2,
+            "num_windings" : 4545.454545454546,
+            "current_per_wire" : 0.493743886441687
+        },{
+            "name" : "right coil",
+            "inner_radius" : 1.15e-2,
+            "outer_radius" : 1.25e-2,
+            "left_edge" : -4.84e-3,
+            "right_edge" : 4.84e-3,
+            "z_center" : 4.5e-2,
+            "num_windings" : 4545.454545454546,
+            "current_per_wire" : 0.493743886441687
+        },
+        {
+            "name" : "center coil",
+            "inner_radius" : 1.15e-2,
+            "outer_radius" : 1.35e-2,
+            "left_edge" : -4.84e-3,
+            "right_edge" : 4.84e-3,
+            "z_center" : 0,
+            "num_windings" : 9090.909090909092,
+            "current_per_wire" : -0.493743886441687
+        }]
+}
+
+
+
+
+
+
+
+

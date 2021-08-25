@@ -1,0 +1,40 @@
+{
+    "simulation_dict" : {
+        "min_rho" : 0,
+        "max_rho" : 5.78e-3,
+        "min_z" : 0,
+        "max_z" : 4.5e-2,
+        "min_theta" : 89,
+        "max_theta" : 90,
+        "frequency" : 18.2e9,
+        "main_field" : 0.689,
+        "trap_strength" : 1e-3,
+        "max_simulations" : 10,
+        "base_num_sidebands" : 7,
+        "sideband_tolerance" : 0.99,
+        "simulation_results_dir" : "power_data/power_data_test/",
+        "simulation_results_file_prefix" : "power_simulation",
+        "calculate_axial_frequencies" : false
+    },
+    
+    "analysis_dict" : {
+        "num_bins" : 10,
+        "main_field" : 0.689,
+        "frequency" : 18.2e9,
+        "cutoff_ratio" : 0.25,
+        "simulation_results_dir" : "power_data/power_data_test/",
+        "simulation_results_file_prefix" : "power_simulation"
+    },
+    
+    "plot_sideband_powers_test" : false,
+    "run_power_simulation" : true,
+    "plot_generated_beta_path" : true,
+    "plot_sideband_powers" : true,
+
+    "analyze_power_simulations" : true,
+    "analyze_power_slopes" : true,
+    "check_sidebands" : false
+}
+
+
+
