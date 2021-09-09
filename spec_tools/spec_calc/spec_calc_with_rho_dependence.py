@@ -65,11 +65,11 @@ def theta_center(zpos, rho, pitch_angle, trap_profile):
     """
     if trap_profile.is_trap == True:
 
-        Bmin = trap_profile.field_strength_interp(rho,0)
+        Bmin = trap_profile.field_strength_interp(rho,0.0)
         Bcurr = trap_profile.field_strength_interp(rho,zpos)
-
-        theta_center_calc = math.asin(math.sqrt(Bmin / Bcurr) * math.sin(pitch_angle * math.pi / 180)) * 180 / math.pi
         
+        theta_center_calc = math.asin(math.sqrt(Bmin / Bcurr) * math.sin(pitch_angle * math.pi / 180)) * 180 / math.pi
+        theta_center_calc = np.arcsin(math.sqrt(Bmin / Bcurr) * np.sin(pitch_angle * math.pi / 180)) * 180 / math.pi
         return theta_center_calc
         
     else:
